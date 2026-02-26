@@ -36,7 +36,7 @@ st.markdown(
 )
 
 # ------------------ LOAD MODEL ------------------
-MODEL_PATH = "runs/detect/train2/weights/best.pt"
+MODEL_PATH = "best.pt"
 
 if not os.path.exists(MODEL_PATH):
     st.error("❌ Model not found! Check best.pt path.")
@@ -237,4 +237,5 @@ st.markdown("---")
 st.markdown(
     "<center style='color:#00f2ff;'>© 2026 IoUT Underwater AI Monitoring | MSc Research Project</center>",
     unsafe_allow_html=True
+
 )
